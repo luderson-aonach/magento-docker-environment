@@ -12,9 +12,23 @@ Check if all those ports are free to use:
 * `1025` - MAILHOG;
 * `8025` - MAILHOG;
 
+### Useful information
+
+#### Magento Backend user:
+* user: admin
+* password: admin123
+
+#### Database information:
+* DATABASE = magento
+* ROOT PASSWORD = magento
+* USER = magento
+* USER_PASSWORD = magento
+* HOST = 127.0.0.1
+* PORT = 3306
+
 ### Installing
 
-1. Download this [docker_stack] and extract it in a folder of your choice;
+1. Download this [Murray's Docker](https://github.com/luderson-aonach/magento-docker-environment/archive/murrayms.zip) and extract it in a folder of your choice;
 
 2. Open your local hosts file and add this line:
     * `127.0.0.1 base.murrayms.local`
